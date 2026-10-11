@@ -1,0 +1,110 @@
+{
+  // ============================================================
+  //  LaTeX 编译产物：仅在资源管理器 / 搜索中隐藏，不影响编译、
+  //  SyncTeX 跳转和 PDF 预览。保留 .tex 源文件与 .pdf 成品。
+  // ============================================================
+  "files.exclude": {
+    // 辅助文件
+    "**/*.aux": true,
+    "**/*.toc": true,
+    "**/*.lof": true,
+    "**/*.lot": true,
+    "**/*.out": true,
+    "**/*.spl": true,
+    "**/*.loa": true,
+    // 编译日志与中间文件
+    "**/*.log": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.xdv": true,
+    "**/*.synctex.gz": true,
+    "**/*.synctex(busy)": true,
+    "**/*.synctex.gz(busy)": true,
+    // 参考文献 / 索引
+    "**/*.bbl": true,
+    "**/*.blg": true,
+    "**/*.bcf": true,
+    "**/*.run.xml": true,
+    "**/*.idx": true,
+    "**/*.ilg": true,
+    "**/*.ind": true,
+    // beamer / 其他排版产物
+    "**/*.nav": true,
+    "**/*.snm": true,
+    "**/*.vrb": true,
+    "**/*.upa": true,
+    "**/*.upb": true
+  },
+
+  // 搜索面板同样忽略这些产物，避免搜到中间文件里的噪声文本
+  "search.exclude": {
+    "**/*.aux": true,
+    "**/*.toc": true,
+    "**/*.out": true,
+    "**/*.lof": true,
+    "**/*.lot": true,
+    "**/*.log": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.xdv": true,
+    "**/*.synctex.gz": true,
+    "**/*.bbl": true,
+    "**/*.blg": true,
+    "**/*.bcf": true,
+    "**/*.run.xml": true,
+    "**/*.nav": true,
+    "**/*.snm": true,
+    "**/*.vrb": true
+  },
+
+  // 不监听这些产物变化，减少重复触发的文件事件
+  "files.watcherExclude": {
+    "**/*.aux": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.fls": true,
+    "**/*.log": true,
+    "**/*.xdv": true,
+    "**/*.synctex.gz": true
+  },
+
+  // 本项目为 LaTeX 报告，默认用 latexmk + xelatex 构建
+  "latex-workshop.latex.autoBuild.run": "never",
+  "files.trimTrailingWhitespace": false,
+
+  // ============================================================
+  //  编辑器观感（“舒适”模式）——仅本项目生效
+  // ============================================================
+  "editor.cursorBlinking": "expand", // 光标伸缩闪烁
+  "editor.cursorSmoothCaretAnimation": "on", // 光标平滑移动
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorSurroundingLines": 3, // 上下留出上下文行
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.smoothScrolling": true, // 编辑器平滑滚动
+  "workbench.list.smoothScrolling": true, // 侧边栏/列表平滑滚动
+  "terminal.integrated.smoothScrolling": true, // 终端平滑滚动
+  "terminal.integrated.cursorBlinking": true, // 终端光标闪烁
+  "editor.mouseWheelZoom": true, // Ctrl + 滚轮缩放字号
+  "editor.lineHeight": 1.6, // 行距更松弛，便于长时间阅读
+  "editor.renderLineHighlight": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.stickyScroll.enabled": true, // 顶部固定当前作用域
+  "editor.occurrencesHighlight": "singleFile",
+  "editor.selectionHighlight": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.tree.indent": 16,
+
+  // ============================================================
+  //  编辑体验（从前端 monorepo 配置中精选）——仅本项目生效
+  // ============================================================
+  "workbench.editor.highlightModifiedTabs": true, // 未保存的标签页高亮
+  "workbench.editor.limit.enabled": true, // 限制同时打开的编辑器数量
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "editor.suggestSelection": "recentlyUsedByPrefix", // 补全优先匹配输入前缀的历史项
+  "editor.acceptSuggestionOnEnter": "smart", // 回车不误接受补全
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?", // 去掉 - 与 $，连字符不再切词
+  "terminal.integrated.scrollback": 10000,
+  "files.insertFinalNewline": true
+}

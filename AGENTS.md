@@ -1,0 +1,2 @@
+- Do not commit changes. Provide a commit message that follows this project's conventions instead; small tasks do not need a summary. I will commit the changes myself.
+- Optimize for speed. Don't over-explore or over-check your work other than what is absolutely necessary to implement the comment.

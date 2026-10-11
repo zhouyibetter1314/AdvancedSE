@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}任务1：传统敏捷人工需求建模（基础）}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}完整业务需求梳理}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}需求拆分与用户故事}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Gherkin格式BDD}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}任务2：LLM增强需求建模（进阶）}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Prompt 设计与对话记录}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}AI生成的用户故事（节选）}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}AI生成的Gherkin格式的BDD场景（节选）}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}分析}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}任务3：Agentic SE需求自治认知与方案设计（拔高）}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Agentic SE需求自治生成的用户故事（节选）}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Agentic SE需求自治生成的Gherkin格式的BDD场景（节选）}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}分析}{11}{subsection.3.3}%
+\contentsline {section}{\numberline {4}任务4：总结分析}{12}{section.4}%
+\contentsline {section}{\numberline {A}Attachment}{15}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}任务二完整用户故事}{15}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}任务二完整Gherkin格式BDD场景}{16}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}任务三产物索引}{24}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}任务三完整用户故事}{24}{subsection.A.4}%
+\contentsline {subsubsection}{\numberline {A.4.1}EP-1 身份与权限}{24}{subsubsection.A.4.1}%
+\contentsline {subsubsection}{\numberline {A.4.2}EP-2 自习室资源浏览与检索}{24}{subsubsection.A.4.2}%
+\contentsline {subsubsection}{\numberline {A.4.3}EP-3 预约创建与管理}{25}{subsubsection.A.4.3}%
+\contentsline {subsubsection}{\numberline {A.4.4}EP-4 签到、签退与资源释放}{25}{subsubsection.A.4.4}%
+\contentsline {subsubsection}{\numberline {A.4.5}EP-5 候补与智能推荐}{26}{subsubsection.A.4.5}%
+\contentsline {subsubsection}{\numberline {A.4.6}EP-6 违约与信用}{26}{subsubsection.A.4.6}%
+\contentsline {subsubsection}{\numberline {A.4.7}EP-7 管理端运维与统计}{27}{subsubsection.A.4.7}%
+\contentsline {subsection}{\numberline {A.5}任务三完整Gherkin格式BDD场景}{27}{subsection.A.5}%
