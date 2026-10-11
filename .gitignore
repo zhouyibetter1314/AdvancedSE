@@ -1,3 +1,36 @@
 .DS_Store
 
 /references
+
+# LaTeX 编译中间文件；保留 .tex 源文件和 .pdf 成品
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.loa
+*.lol
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.xdv
+*.dvi
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.idx
+*.ind
+*.ilg
+*.ist
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.nav
+*.snm
+*.vrb
